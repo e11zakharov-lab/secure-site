@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureNode — Защищенные каналы связи для удаленной работы</title>
+    <style>
+        :root { --bg-color: #0d1117; --panel-bg: #161b22; --border-color: #30363d; --text-color: #c9d1d9; --text-muted: #8b949e; --accent-color: #58a6ff; --accent-hover: #1f6feb; --success-color: #238636; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
+        header { background-color: var(--panel-bg); border-bottom: 1px solid var(--border-color); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #fff; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 3rem 1rem; }
+        .hero { text-align: center; margin-bottom: 4rem; }
+        .hero h1 { font-size: 2.5rem; color: #fff; margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; color: var(--text-muted); max-width: 600px; margin: 0 auto; }
+        .tariffs { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 4rem; justify-content: center; }
+        .tariff-card { background-color: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 2rem; text-align: center; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s, border-color 0.2s; max-width: 360px; margin: 0 auto; width: 100%; }
+        .tariff-card:hover { transform: translateY(-5px); border-color: var(--accent-color); }
+        .tariff-title { font-size: 1.3rem; color: #fff; margin-bottom: 1rem; }
+        .tariff-price { font-size: 2.5rem; font-weight: bold; color: var(--accent-color); margin-bottom: 1.5rem; }
+        .tariff-features { list-style: none; text-align: left; margin-bottom: 2rem; color: var(--text-muted); }
+        .tariff-features li { margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px; }
+        .tariff-features li::before { content: "✓"; color: var(--success-color); font-weight: bold; }
+        .btn { display: inline-block; background-color: var(--accent-color); color: #fff; text-decoration: none; padding: 0.8rem 1.5rem; border-radius: 6px; font-weight: 600; text-align: center; width: 100%; }
+        .btn:hover { background-color: var(--accent-hover); }
+        .about { background-color: var(--panel-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 2rem; margin-bottom: 4rem; }
+        .about h2 { color: #fff; margin-bottom: 1rem; }
+        footer { background-color: var(--panel-bg); border-top: 1px solid var(--border-color); padding: 2rem; text-align: center; font-size: 0.9rem; color: var(--text-muted); line-height: 1.8; }
+        .footer-links { margin-bottom: 1.5rem; }
+        .footer-links a { color: var(--text-muted); text-decoration: none; margin: 0 1rem; border-bottom: 1px dashed var(--text-muted); }
+        .footer-links a:hover { color: var(--accent-color); border-bottom-color: var(--accent-color); }
+    </style>
+</head>
+<body>
+    <header><div class="logo">🌐 SecureNode</div></header>
+    <div class="container">
+        <section class="hero">
+            <h1>Безопасные каналы связи для удаленной работы</h1>
+            <p>Предоставление технического доступа к изолированным удаленным узлам связи для защищенного администрирования, тестирования и шифрования сетевого трафика.</p>
+        </section>
+        <section class="tariffs">
+            <div class="tariff-card">
+                <div>
+                    <div class="tariff-title">Пакет «SecureLine-Base»</div>
+                    <div class="tariff-price">100 ₽</div>
+                    <ul class="tariff-features">
+                        <li>Доступ к высокоскоростному узлу</li>
+                        <li>Шифрование канала связи (VLESS)</li>
+                        <li>Лимит трафика: Без ограничений</li>
+                        <li>Срок действия: 30 дней</li>
+                    </ul>
+                </div>
+                <!-- Замени слово ИМЯ_БОТА на юзернейм вашего бота без собаки -->
+                <a href="https://t.me" class="btn">Подключить тариф</a>
+            </div>
+        </section>
+        <section class="about">
+            <h2>О сервисе</h2>
+            <p>SecureNode обеспечивает надежную изоляцию вашего интернет-соединения от несанкционированного перехвата конфиденциальных данных третьими лицами в публичных и незащищенных сетях. Наше техническое решение разворачивает зашифрованный туннель между вашим рабочим устройством и удаленным вычислительным сервером.</p>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <a href="oferta.html">Публичная оферта</a>
+            <a href="privacy.html">Политика конфиденциальности</a>
+        </div>
+        <p>© 2026 SecureNode. Все права защищены.</p>
+        <p>Исполнитель: Самозанятый Захаров Егор Максимович</p>
+        <p>ИНН: 121528061489</p>
+        <p>Email для связи и поддержки: support@secure-node.site</p>
+    </footer>
+</body>
+</html>
