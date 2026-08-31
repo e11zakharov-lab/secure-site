@@ -1,10 +1,127 @@
-<!-- Блок реквизитов для подвала сайта -->
-<div class="company-details" style="font-size: 14px; color: #555; line-height: 1.6; text-align: center; padding: 15px 0; border-top: 1px solid #eee; margin-top: 20px;">
-    <p>
-        <strong>ООО «ТехИнновация»</strong><br>
-        ИНН: 7723456789 &nbsp;|&nbsp; ОГРН: 1234567890123<br>
-        Генеральный директор: Иванов Петр Николаевич<br>
-        Юридический адрес: 127015, г. Москва, ул. Новодмитровская, д. 2, корп. 1, оф. 45<br>
-        E-mail: info@technovation.ru &nbsp;|&nbsp; Телефон: +7 (499) 123-45-67
-    </p>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТехИнновация — IT-решения</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f9;
+            color: #222;
+        }
+        .wrap {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: #0b1e3a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.85;
+            margin-top: 8px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin: 40px 0;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            padding: 25px 20px;
+            flex: 1 1 180px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #0b1e3a;
+        }
+        .btn {
+            display: inline-block;
+            background: #d9572a;
+            color: white;
+            padding: 14px 36px;
+            text-decoration: none;
+            border-radius: 40px;
+            font-weight: bold;
+            margin: 10px 0 20px;
+        }
+        .btn:hover {
+            background: #b84820;
+        }
+        .footer {
+            background: #e2e6ee;
+            padding: 25px 20px;
+            margin-top: 45px;
+            border-radius: 16px 16px 0 0;
+            text-align: center;
+            font-size: 15px;
+            line-height: 1.7;
+            border-top: 2px solid #c0c7d6;
+        }
+        .footer p {
+            margin: 6px 0;
+        }
+        .footer strong {
+            color: #0b1e3a;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+
+    <div class="header">
+        <h1>ТехИнновация</h1>
+        <p>Облачные инфраструктуры и IT-консалтинг</p>
+    </div>
+
+    <div class="services">
+        <div class="card">
+            <h3>Облачные вычисления</h3>
+            <p>Виртуальные мощности под любые задачи бизнеса.</p>
+        </div>
+        <div class="card">
+            <h3>ИТ-консалтинг</h3>
+            <p>Аудит, оптимизация и миграция инфраструктуры.</p>
+        </div>
+        <div class="card">
+            <h3>Безопасность</h3>
+            <p>Шифрование трафика, защита данных и сетей.</p>
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <a href="#" class="btn">Связаться с нами</a>
+    </div>
+
+    <!-- НОВЫЕ РЕКВИЗИТЫ (Иванов Петр Николаевич) -->
+    <div class="footer">
+        <p><strong>ООО «ТехИнновация»</strong></p>
+        <p>ИНН: 7723456789 | ОГРН: 1234567890123</p>
+        <p>Генеральный директор: Иванов Петр Николаевич</p>
+        <p>Юр. адрес: 127015, г. Москва, ул. Новодмитровская, д. 2, корп. 1, оф. 45</p>
+        <p>Email: info@technovation.ru | Тел.: +7 (499) 123-45-67</p>
+    </div>
+
 </div>
+
+</body>
+</html>
